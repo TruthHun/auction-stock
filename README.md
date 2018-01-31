@@ -1,6 +1,7 @@
 # 集合竞价选股(股票)
 基于收盘价与前收盘价的选股策略
 
+## 源码
 ```python
 # coding=utf-8
 from __future__ import print_function, absolute_import, unicode_literals
@@ -84,3 +85,7 @@ if __name__ == '__main__':
         backtest_commission_ratio=0.0001,
         backtest_slippage_ratio=0.0001)
 ```
+
+
+## 绩效图
+![绩效图](attach.png)
